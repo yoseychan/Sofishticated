@@ -1,0 +1,103 @@
+header, main, aside, article, footer {
+	display: block;
+}
+
+body {
+	background-color: #e8dab4;
+	margin: 0;
+	padding: 15px;
+}
+
+header {
+	min-height: 300px;
+	background-image: url("https://wallpaperplay.com/walls/full/7/f/9/296155.jpg");
+	background-position: top;
+	background-size: cover; 
+}
+
+h1 {
+	
+	font-family: "Palatino Linotype";
+	display: inline-block;
+	line-height: 40px;
+	float: right;
+	padding-right: 30px;
+	color: #493c2f;
+	text-transform: capitalize;
+}
+
+main {
+	margin: 0;
+	padding: 0;
+}
+
+article, aside {
+	min-height: 300px;
+	display: inline-block;
+	font-family: "Palatino Linotype";
+	color: #493c2f;
+}
+
+article {
+	float: left;
+	width: 76%;
+	text-align: justify;
+	font-family: "Palatino Linotype";	
+}
+
+h2 {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+h3 {
+	padding-left: 25px;
+
+}
+
+aside {
+	background-color: #d19c70;
+	width: 18%;
+	float: right;
+	min-height: 300px;
+}
+
+aside nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+}
+
+aside nav ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 0;
+	color: #493c2f;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 700;
+	font-family: "Roboto";		
+}
+
+aside span nav ul li a {
+	border-bottom: 1px solid #e8dab4;
+}
+
+
+
+.width {
+	width: 37%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.minheight {
+	min-height: 300px;
+}
+.asideheight {
+	min-height: 750px;
+}
+.padding {
+	padding-right: 10px;
+	padding-left: 10px;
+}
